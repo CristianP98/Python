@@ -7,3 +7,17 @@ def calcular(a: int, b: int)-> int:
     else:
         return b
 calcular(2,4)
+#%%
+""" Ejercicio-2:  Definir una función max_de_tres(), que tome tres números como argumentos y devuelva el mayor de ellos. """
+def calcular_tres(
+        a: input,
+        b: input,
+        c: input)-> int:
+    if a > b and a > c:
+        return a
+    elif b > a and b > c:
+        return b
+    else:
+        return c    
+calcular_tres(2,3,5)
+
