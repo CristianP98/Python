@@ -49,6 +49,7 @@ def longitud(cadena):
     return contador
 print(longitud(input('Ingrese el texto que quiere ser contado: '))) 
 
+
 #Ejercicio 4
 """ 
 4 - Escribir una función que tome un carácter y devuelva True si es una vocal, de lo contrario devuelve False.
