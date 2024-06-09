@@ -1,10 +1,3 @@
-""" 
-10 - Definir un histograma procedimiento() que tome una lista de números enteros e imprima un histograma en la pantalla. Ejemplo: procedimiento([4, 9, 7]) debería imprimir lo siguiente:
-****
-*********
-*******
- """
-
 #1 -: Definir una función max() que tome como argumento dos números y devuelva el mayor de ellos. (Es cierto que python tiene una función max() incorporada, pero hacerla nosotros mismos es un muy buen ejercicio.
 #%% 
 def max(num1, num2):
@@ -102,8 +95,21 @@ print(superposicion( [1,2,3] , [4,2,7] ))
 #9 - Definir una función generar_n_caracteres() que tome un entero n y devuelva el caracter multiplicado por n. Por ejemplo: generar_n_caracteres(5, "x") debería devolver "xxxxx".
 
 #%%
-def generar_n_caracteres(n, caracter):
-    n: int = input('Ingrese un número del caracter multiplicado')
-    caracter: str = input('Ingrese un caracter (a,b,c "hola.. etc.")')
-    return n * caracter 
+def generar_n_caracteres():
+    n = int(input('Ingrese la cantidad de números para el caracter'))
+    caracter = str(input('Ingrese el caracter que va hacer multiplicado'))
+    return caracter * n
 print(generar_n_caracteres())
+
+#10 - Definir un histograma procedimiento() que tome una lista de números enteros e imprima un histograma en la pantalla. Ejemplo: procedimiento([4, 9, 7]) debería imprimir lo siguiente:
+""" 
+****
+*********
+******* 
+"""
+#%%
+def histograma ():
+    lista = [8, 5, 2]
+    for i in lista: #El bucle for recorre la lista [8, 5 , 2]
+        print(i * '*') #Luego se le llama al bucle para que se imprima por los '*' y luego lo multiplicamos 
+histograma()
