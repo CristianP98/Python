@@ -84,11 +84,11 @@ assert verificar_vocal('z') == False
 #Ejercicio-5: Escribir una función que calcule la longitud de una lista o una cadena dada. (Es cierto que python tiene la función len() incorporada, pero escribirla por nosotros mismos resulta un muy buen ejercicio.
 
 #%% suma
-sum(lista: list) -> int | float:
-pass
+def suma(lista: list) -> int | float:
+  pass
 #%% multiplicacion
 def multiplicacion(lista: list) -> int | float:
-
-#%% tests
-assert sum([1, 2, 3, 4]) == 10
-assert multiplicacion ([1, 2, 3, 4]) == 24
+  pass
+#%% Tests
+assert suma([1,2,3,4]) == 10
+assert multiplicacion([1,2,3,4]) == 24
