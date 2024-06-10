@@ -67,7 +67,7 @@ print(inversa(input('Ingrese un texto: ')))
 #7 - Definir una función es_palindromo() que reconoce palíndromos (es decir, palabras que tienen el mismo aspecto escritas invertidas), ejemplo: es_palindromo ("radar") tendría que devolver True.
 #%%
 def es_palindromo():
-    palabra = input('Ingre un palabra: ')
+    palabra = input('Ingrese un palabra: ')
     palabra = palabra.lower() #Utilizo lower para cambiar las palabras de mayusculas a minusculas para que no hayan errores 
     if palabra == palabra [::-1]: #vuelvo a llamar la notacion de rebanado para invertir la cadena
         return True
